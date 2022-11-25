@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Таймер</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="buttons-time">
+				<button class="buttons-time__item buttons-time__item_1">1 мин</button>
+				<button class="buttons-time__item buttons-time__item_5">5 мин</button>
+				<button class="buttons-time__item buttons-time__item_10">10 мин</button>
+			</div>
+			<div class="timer">
+				<div class="timer__block">
+					<input class="timer__item minutes" type="number">
+					<p class="timer__title">Минуты</p>
+				</div>
+				<div class="timer__block">
+					<input class="timer__item seconds" type="number">
+					<p class="timer__title">Секунды</p>
+				</div>
+			</div>
+			<div class="buttons">
+				<button class="buttons__item start">Старт</button>
+				<button class="buttons__item stop">Стоп</button>
+				<button class="buttons__item reset">Ресет</button>
+			</div>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
