@@ -1,0 +1,153 @@
+
+/* Footer */
+.footer{
+    padding: 80px 0 136px;
+    background-image: url(../img/footer/Wave.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block1__title{
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #ADADAD;
+    margin-bottom: 8px;
+}
+
+.network{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.network__item+ .network__item{
+    margin-left: 37px;
+}
+
+.footer-block1__title_margin{
+    margin-bottom: 25px;
+}
+
+.iformation{
+    display: flex;
+}
+
+.iformation__item + .iformation__item{
+    margin-left: 70px;
+}
+
+.list-iformation__item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #2D3436;
+    margin-bottom: 16px;
+}
+
+.list-iformation__item_underline{
+    text-decoration-line: underline;
+}
+
+.footer-block2__title{
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #ADADAD;
+}
+
+.footer-block2__email{
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #6C5CE7;
+    margin-bottom: 48px;
+}
+
+.footer-block2__title__mb{
+    margin-bottom: 16px;
+}
+
+.form{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:270px 100px 170px;
+}
+
+.form__block{
+    position: relative;
+}
+
+.form__block img{
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.form__input{
+    background-color: rgba(194, 194, 194, 0.24);
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+    padding: 8px 16px;
+    position: relative;
+    width: 100%;
+    /* border:1px solid #000; */
+}
+
+.form__input::placeholder {
+    color: #2D3436;
+}
+
+.form__input_email{
+    grid-column: span 2;
+}
+
+.form__block_textarea{
+    grid-column: span 2;
+}
+
+.form__textarea{
+    width: 100%;
+    resize: none;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
+    background-color: rgba(194, 194, 194, 0.24);
+    border: 2px solid #6C5CE7;
+    border-radius: 16px;
+}
+
+.form__textarea::placeholder {
+    color: #6C5CE7;
+}
+
+.form__btn{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    background: #6C5CE7;
+    padding: 16px 32px;
+    box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
+    border-radius: 16px;
+}
+
