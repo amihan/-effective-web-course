@@ -1,0 +1,118 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper{
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+
+.timer{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+
+.timer__block + .timer__block{
+	margin-left: 20px;
+}
+
+.timer__item{
+	font-size: 40px;
+	padding: 20px;
+	height: 150px;
+	max-width: 150px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.timer__title{
+	text-align: center;
+}
+
+.buttons{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons__item{
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.start{
+	background-color:rgb(9, 170, 17);
+}
+
+.stop{
+	background-color:rgb(129, 4, 4);
+}
+
+.reset{
+	background-color:rgb(186, 186, 4);
+}
+
+
+.buttons-time{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.buttons-time__item{
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color:rgb(18, 86, 111);
+}
